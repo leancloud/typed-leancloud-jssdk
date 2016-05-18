@@ -1,0 +1,12 @@
+{
+  "name": "typed-leancloud-jssdk",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/leancloud/typed-leancloud-jssdk",
+  "version": "",
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
+  },
+  "ambientDevDependencies": {
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  }
+}
