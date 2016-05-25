@@ -3,8 +3,7 @@
 // Definitions by: Wu Jun <http://leancloud.cn>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-declare module "leancloud-jssdk" {
-  namespace AV{
+declare namespace AV {
 
     var applicationId: string;
     var applicationKey: string;
@@ -837,6 +836,7 @@ declare module "leancloud-jssdk" {
     function init(options:any):void;
     function useAVCloudUS():void;
   }
-
-  export = AV;
-}
+  
+  declare module "leancloud-jssdk" {
+      export = AV;
+  }
