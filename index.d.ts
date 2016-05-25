@@ -836,7 +836,5 @@ declare namespace AV {
     function init(options:any):void;
     function useAVCloudUS():void;
   }
-  
-  declare module "leancloud-jssdk" {
-      export = AV;
-  }
+
+  export = AV;
